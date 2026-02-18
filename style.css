@@ -86,6 +86,11 @@ button {
   color: #F3F1ED;
 }
 
+#reset {
+  background: #6B5B95;
+  color: #F3F1ED;
+}
+
 #decrease:hover {
   background-color: #d96f3f;
 }
@@ -99,5 +104,13 @@ button {
 }
 
 #increase:active {
+  transform: scale(0.95);
+}
+
+#reset:hover {
+  background-color: #5a4a7f;
+}
+
+#reset:active {
   transform: scale(0.95);
 }
